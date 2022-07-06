@@ -1,3 +1,4 @@
+/* estilos gerais */
 * {
     padding: 0;
     margin: 0;
@@ -20,6 +21,7 @@ main {
     margin-bottom: 50px;
 }
 
+/* conteiners */
 .instg-wrapper {
     display: flex;
     align-items: flex-start;
@@ -67,13 +69,12 @@ main {
     padding-top: 50px;
 
 }
+
 .logo-insta {
     height: 3.5rem;
 }
-.log-face img{
-    height: 1.2rem;
-}
 
+/* Formulário de Login/Opções de login */
 .login-form {
     width: 75%;
     margin-top: 2rem;
@@ -95,6 +96,7 @@ main {
     font-size: 12px;
     border-radius: 3px;
 }
+
 .form input:focus {
     outline: 0;
 }
@@ -112,25 +114,26 @@ main {
 .btn a {
     color: white;
 }
+
 .log-face {
     display: flex;
     justify-content: center;
-    /* align-items: center; */
     color: #385185;
     font-weight: 600;
     margin-bottom: 1.1rem;
-
 }
+
 .log-face img {
+    height: 1.2rem;
     margin-right: 7px;
 }
 
 .forget-pass {
     font-size: small;
     color: #385185;
-
 }
 
+/* Divisor */
 .or {
     display: flex;
     align-items: center;
@@ -145,7 +148,7 @@ main {
     border: 1px solid #DBDBDB;
 }
 
-
+/* seção de Download */
 .get-the-app {
     display: flex;
     flex-direction: column;
@@ -179,6 +182,8 @@ main {
     background-image: url("./img/googleplay-button.png");
 }
 
+/* Rodapé com links */
+
 .footer-link{
     height: 120px;
     width: 90%;
@@ -186,8 +191,7 @@ main {
     padding: 25px;
     margin: auto;
     display: flex;
-    flex-direction: column;
-    
+    flex-direction: column;  
 }
 
 .link-silver{
@@ -223,3 +227,28 @@ main {
     padding: 10px;
     margin: 2px;
 }
+
+
+/* Breakpoints */
+
+@media (max-width:1024px) {
+    .instg-wrapper {
+        width: 90%;
+    }
+}
+
+@media (max-width:650px) {
+    .instg-wrapper {
+        width: 90%;
+    }
+    .instg-phone {
+        display: none;
+    }
+    .instg-login {
+        width: 100%;
+    }
+    .footer-link {
+        display: none;
+    }
+}
+
