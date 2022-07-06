@@ -1,0 +1,225 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #FAFAFA;
+    
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.instg-wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: start;
+    padding-top: 1.2rem;
+    width: 60%;
+    height: 100vh;
+}
+.instg-phone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    margin-right: 15px;
+}
+
+.instg-login {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 44%;
+    min-height: 34rem;
+}
+.link-blue {
+    color: #0396F6;
+    font-weight: 700;
+}
+.group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+    width: 100%;
+    padding: 1.7rem 0px;
+    border: 1px solid lightgray;
+
+}
+
+.group:nth-child(1) {
+    min-height: 25rem;
+    margin-bottom: 10px;
+    margin-top: 27px;
+    padding-top: 50px;
+
+}
+.logo-insta {
+    height: 3.5rem;
+}
+.log-face img{
+    height: 1.2rem;
+}
+
+.login-form {
+    width: 75%;
+    margin-top: 2rem;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.form input {
+    border: none;
+    margin-bottom: 10px;
+    background-color: #FAFAFA;
+    color: #4d4d4d;
+    border: 1px solid lightgray;
+    padding: 8px;
+    font-size: 12px;
+    border-radius: 3px;
+}
+.form input:focus {
+    outline: 0;
+}
+
+.btn {
+    background-color: #B2DFFC;
+    padding: 8px 10px;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: 600;
+    border: none;
+    margin-top: 7px;
+}
+
+.btn a {
+    color: white;
+}
+.log-face {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    color: #385185;
+    font-weight: 600;
+    margin-bottom: 1.1rem;
+
+}
+.log-face img {
+    margin-right: 7px;
+}
+
+.forget-pass {
+    font-size: small;
+    color: #385185;
+
+}
+
+.or {
+    display: flex;
+    align-items: center;
+    color: #989898;
+    font-weight: 600;
+}
+.or p {
+    margin: 20px 15px;
+}
+.or div{
+    width: 7.8rem;
+    border: 1px solid #DBDBDB;
+}
+
+
+.get-the-app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 1.3rem 0;
+}
+
+.download-app {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    margin-top: 5px;
+}
+
+.app-download {
+    height: 3rem;
+    width: 10rem;
+    background-size: cover;
+}
+
+.app-download:nth-child(1) {
+    background-image: url("./img/apple-button.png");
+    margin-right: 10px;
+}
+
+.app-download:nth-child(2) {
+    background-image: url("./img/googleplay-button.png");
+}
+
+.footer-link{
+    height: 120px;
+    width: 90%;
+    text-align: center;
+    padding: 25px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.link-silver{
+    font-size: 11px;
+    color: #797676;
+    width: 10px;
+    height: 10px;
+    padding: 10px;
+}
+
+.link-silver2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: #797676;
+    padding: 2px 8px 50px 8px;
+    margin: 8px ;
+}
+
+.link-silver2 p {
+    font-size: 11px;
+}
+
+.ln-2{
+    padding: 6px;
+    margin: 6px;
+}
+
+.link3{
+    font-size: 11px;
+    color: #797676;
+    padding: 10px;
+    margin: 2px;
+}
